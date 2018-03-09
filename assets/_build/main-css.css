@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/*--------------------------------------------------------------
+Responsive typography – https://www.smashingmagazine.com/2017/05/fluid-responsive-typography-css-poly-fluid-sizing/
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+1.0 Layout
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+1.0 Typography
+--------------------------------------------------------------*/
+body {
+  font-family: "basic-sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #232d32; }
+
+h1.entry-title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.1111111111115;
+  font-style: italic; }
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.6; }
+
+.entry-content p:first-of-type::first-letter {
+  float: left;
+  font-size: 85px;
+  line-height: 0.9;
+  padding-top: 4px;
+  padding-right: 15px;
+  padding-left: 3px;
+  font-weight: bold; }
+
+/*--------------------------------------------------------------
+1.1 Layout
+--------------------------------------------------------------*/
+.wrap {
+  width: 100%;
+  padding: 0 20px;
+  margin: auto; }
+
+#primary {
+  margin: auto; }
+
+/*--------------------------------------------------------------
+1.0 Featured Image
+--------------------------------------------------------------*/
+.single-featured-image-header,
+.post-thumbnail {
+  margin-bottom: 80px; }
+
+/*--------------------------------------------------------------
+1.0 Media Queries
+--------------------------------------------------------------*/
+@media screen and (min-width: 375px) {
+  h1.entry-title {
+    font-size: calc(1.9998758805vw + 15.7810686691px); }
+
+  p {
+    font-size: calc(0.7343738687vw + 13.6770409905px); } }
+@media screen and (min-width: 768px) {
+  .wrap {
+    padding: 0 10%; } }
+@media screen and (min-width: 1024px) {
+  #primary {
+    max-width: 800px; } }
+@media screen and (min-width: 1440px) {
+  .wrap {
+    width: 1400px; }
+
+  h1.entry-title {
+    font-size: 45px; }
+
+  p {
+    font-size: 24px; } }
+
+/*# sourceMappingURL=main-css.css.map */

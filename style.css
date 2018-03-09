@@ -835,13 +835,7 @@ body {
     word-wrap: break-word;
 }
 
-.wrap {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 700px;
-    padding-left: 2em;
-    padding-right: 2em;
-}
+.wrap {}
 
 /*--------------------------------------------------------------
 13.1 Header
@@ -1217,11 +1211,7 @@ object {
     }
 
     /* Layout */
-    .wrap {
-        max-width: 1000px;
-        padding-left: 3em;
-        padding-right: 3em;
-    }
+    .wrap {}
 
 
 }
@@ -1334,11 +1324,7 @@ object {
     }
 
     /* Layout */
-    .wrap {
-        padding-left: 5% !important;
-        padding-right: 5% !important;
-        max-width: none;
-    }
+    .wrap {}
 
 
 
